@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cldgjsx5mauwf"]
+
+[ext_resource type="PackedScene" uid="uid://bjig2wx5u6565" path="res://Scenes/Hero.tscn" id="1_huvwk"]
+[ext_resource type="Texture2D" uid="uid://b7uevpm8gqtr6" path="res://Base Shading.png" id="2_muaxy"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Hero" parent="." instance=ExtResource("1_huvwk")]
+z_index = 1
+position = Vector2(183, 308)
+
+[node name="BaseShading" type="Sprite2D" parent="."]
+position = Vector2(373, 283)
+texture = ExtResource("2_muaxy")
